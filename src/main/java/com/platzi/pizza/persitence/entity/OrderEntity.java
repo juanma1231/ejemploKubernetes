@@ -25,6 +25,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 public class OrderEntity {
+    //hola, esto es un comentatio
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_order", nullable = false)
